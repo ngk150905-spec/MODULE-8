@@ -1,7 +1,7 @@
 ## 🎯 Aim
 
 To write a Python program to calculate the final amount paid by Vimla for purchasing a microwave oven after applying a discount and adding CST.
----
+
 
 ## 🧠 Algorithm
 
