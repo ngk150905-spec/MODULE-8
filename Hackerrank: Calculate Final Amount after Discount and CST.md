@@ -5,49 +5,33 @@ To write a Python program to calculate the final amount paid by Vimla for purcha
 
 ## 🧠 Algorithm
 
-1. **Start** the program.
-2. Create a dictionary `student_marks`:
-   - Keys → Student names.
-   - Values → List of marks in five subjects.
-3. Initialize an empty dictionary `total_marks`.
-4. Loop through `student_marks`:
-   - Calculate the total marks using `sum()`.
-   - Store the result in `total_marks`.
-5. Use `max()` on `total_marks` to find the student with the highest total.
-6. Print:
-   - The `total_marks` dictionary.
-   - The **topper's name and score**.
-
+1. Start the program
+2. Initialize the amount of the microwave oven as Rs.25,000.
+3. Read the discount percentage (5%) and CST percentage (2%).
+4. Calculate the discount amount:
+         discount_amount=discount_percentage/100*amount
+5. Calculate the CST amount:
+         cst_amount=cst_percentage/100*amount
+6. Calculate the final amount to be paid:
+      final_amount=amount+cst_amount-discount_amount
+7. Display the final amount.
+8. Stop the program. 
 ---
 
 ## 💻 PROGRAM:
 ```
-student_marks = {
-    "Alice": [88, 76, 92, 85, 79],
-    "Bob": [90, 91, 85, 88, 92],
-    "Charlie": [70, 80, 75, 65, 72],
-    "Diana": [95, 89, 94, 90, 96]
-}
-total_marks = {}
-for student, marks in student_marks.items():
-    total_marks[student] = sum(marks)
-topper = max(total_marks, key=total_marks.get)
-top_score = total_marks[topper]
-print("Total Marks of Students:")
-for student, total in total_marks.items():
-    print(f"{student}: {total}")
-
-print(f"\nTopper: {topper} with {top_score} marks.")
+amount=25000
+discount_percentage=5
+cst_percentage=2
+discount_amount=(discount_percentage/100)*amount
+cst_amount=(cst_percentage/100)*amount
+final_amount=amount+cst_amount-discount_amount
+print(final_amount)
 ```
 ## OUTPUT
 ```
-Total Marks of Students:
-Alice: 420
-Bob: 446
-Charlie: 362
-Diana: 464
+<img width="1183" height="190" alt="image" src="https://github.com/user-attachments/assets/17e2e2e8-1a19-4e35-b2b8-90535b79f63e" />
 
-Topper: Diana with 464 marks.
 ```
 ## RESULT
 Hence Calculated total marks for students and find the topper.
