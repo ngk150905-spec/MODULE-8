@@ -29,9 +29,8 @@ final_amount=amount+cst_amount-discount_amount
 print(final_amount)
 ```
 ## OUTPUT
-```
+
 <img width="1183" height="190" alt="image" src="https://github.com/user-attachments/assets/17e2e2e8-1a19-4e35-b2b8-90535b79f63e" />
 
-```
 ## RESULT
 Hence Calculated total marks for students and find the topper.
