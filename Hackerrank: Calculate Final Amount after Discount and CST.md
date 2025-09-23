@@ -1,13 +1,6 @@
-# # 🔢 Hackerrank:# 🏆 Student Topper Finder
-
-This Python program helps determine the **top-performing student** based on the total marks across five subjects. It uses a dictionary to store each student’s marks and identifies the topper using simple calculations and built-in functions.
-
----
-
 ## 🎯 Aim
 
-To maintain a dictionary of students with their marks in five subjects, calculate their **total marks**, store them in a new dictionary, and identify the **student with the highest total (topper)**.
-
+To write a Python program to calculate the final amount paid by Vimla for purchasing a microwave oven after applying a discount and adding CST.
 ---
 
 ## 🧠 Algorithm
