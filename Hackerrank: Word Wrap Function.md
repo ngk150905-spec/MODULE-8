@@ -1,34 +1,30 @@
-# 🔄 Hackerrank : # 📦 Python Word Wrap Function
-
-This Python program defines a function that **wraps a long string into multiple lines**, ensuring each line does not exceed a specified width.
-
----
-
+# 🔄 Hackerrank : # Star Pattern Printer
 ## 🎯 Aim
 
-To write a Python function that takes a long string and a specified width, and returns the string formatted with line breaks such that each line has **at most the given width**.
-
----
+To write a Python program to construct a star pattern in an increasing and then decreasing order based on the given number n.
 
 ## 🧠 Algorithm
-
-1. **Start** the program.
-2. Define a function `wrap(string, max_width)`:
-   - Create an empty list `wrapped_lines` to store parts of the string.
-   - Loop through the string using steps of `max_width`.
-   - In each iteration, extract a substring of length `max_width`.
-   - Append this substring to the list.
-3. Join the list with `\n` to create the final string.
-4. Return the result.
-5. **End** the program.
-
----
-
+1.Start the program.
+2.Read an integer n from the user (number of rows for the upper half).
+3.Use a for loop from 1 to n:
+   Print * repeated i times.
+4.Use another for loop from n-1 down to 1:
+   Print * repeated i times.
+5.End the program.
 
 ## 🧪 Program
-Add Code Here
-
+```
+n=int(input())
+for i in range(1, n+1):
+    print('* ' * i)
+for i in range(n-1, 0, -1):
+    print('* ' * i)
+```
+ 
 ## Sample Output
 
-## Result
+<img width="1187" height="395" alt="image" src="https://github.com/user-attachments/assets/566fa0fb-575e-4613-af22-3eab0f819070" />
 
+
+## Result
+Thus, the python program was successfully executed.
